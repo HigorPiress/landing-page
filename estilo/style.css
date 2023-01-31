@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 95vw;
+    height: 95vh;
+    background-color: bisque;
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    background: url('../imagens/pexels-peter-szabo-218434.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex; 
+    justify-content: center;  
+    align-items: center; 
+}
+
+.title h1 {
+    text-shadow: 2px 5px 10px black;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+}
+
+.title p {
+    color: white;
+    font-size: 65px;
+    text-shadow: 2px 5px 10px black 
+}
