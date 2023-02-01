@@ -9,12 +9,12 @@ body {
     padding-top: 30px;
     display: flex;
     justify-content: center;
+    background-color: #E8ECEF;
 }
 
 main {
     width: 95vw;
     height: 95vh;
-    background-color: bisque;
 }
 
 header {
@@ -23,20 +23,41 @@ header {
     background: url('../imagens/pexels-peter-szabo-218434.jpg');
     background-attachment: fixed;
     background-size: cover;
-    display: flex; 
-    justify-content: center;  
-    align-items: center; 
+    box-shadow: 1px 1px 1px 1px black;
 }
 
-.title h1 {
-    text-shadow: 2px 5px 10px black;
-    text-align: center;
-    color: white;
-    font-size: 80px;
+
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+    
 }
 
-.title p {
-    color: white;
-    font-size: 65px;
-    text-shadow: 2px 5px 10px black 
+.title-header {
+    font-size: 35px;
+    
+}
+
+.menu {
+    
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.bar-home {
+    width: 50px;
+    height: 2px;
+    background-color: #1F9DCD;
+    margin-left: 18px;
+    
 }
