@@ -23,7 +23,7 @@ header {
     background: url('../imagens/pexels-peter-szabo-218434.jpg');
     background-attachment: fixed;
     background-size: cover;
-    box-shadow: 1px 1px 1px 1px black;
+    box-shadow: 0px 1px 5px 1px black;
 }
 
 
@@ -33,31 +33,41 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    width: 100%;
     background-color: white;
     
 }
 
 .title-header {
-    font-size: 35px;
-    
+    font-size: 32px;
+    font-weight: bold;
 }
 
 .menu {
-    
     display: flex;
+    
 }
 
 a {
+    font-size: 18px;
     text-decoration: none;
     color: black;
+    font-weight: 600;
     padding: 20px;
 }
 
+a img {
+    width: 20px;
+}
+
+#bar1:hover {
+    width: 90%;
+    border-bottom: solid 2px #1F9DCD;
+}
+
 .bar-home {
-    width: 50px;
+    box-sizing: border-box;
+    width: 61px;
     height: 2px;
     background-color: #1F9DCD;
     margin-left: 18px;
-    
 }
