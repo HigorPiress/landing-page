@@ -1,8 +1,12 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sriracha';
 }
 
 body {
@@ -15,15 +19,18 @@ body {
 main {
     width: 95vw;
     height: 95vh;
+    box-shadow: 0px 1px 5px 1px black;
 }
 
-header {
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 500px;
-    background: url('../imagens/pexels-peter-szabo-218434.jpg');
+    background: url('../imagens/2000_5cda9b8a30f61.jpg');
     background-attachment: fixed;
     background-size: cover;
-    box-shadow: 0px 1px 5px 1px black;
 }
 
 
@@ -44,11 +51,18 @@ header {
 
 .menu {
     display: flex;
+    align-items: center;
+}
+
+.menu ul li {
+    padding-bottom: 10px;
+    margin-right: 25px ;
+    display: inline;
     
 }
 
 a {
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
     color: black;
     font-weight: 600;
@@ -59,15 +73,53 @@ a img {
     width: 20px;
 }
 
-#bar1:hover {
-    width: 90%;
+li:hover {
+    width: 10px;
+    border-bottom: solid 3px #1F9DCD;
+}
+
+.contact-container {
+    display: inline-block;
+}
+
+.contact {
+    
+}
+
+.contact i {
+    font-size: 20px;
+    padding: 15px;
+}
+
+.contact i:hover {
+    border: 2px solid #1F9DCD;
+    color: #1F9DCD;
+    padding: 4px;
+}
+
+.border {
     border-bottom: solid 2px #1F9DCD;
 }
 
-.bar-home {
-    box-sizing: border-box;
-    width: 61px;
-    height: 2px;
-    background-color: #1F9DCD;
-    margin-left: 18px;
+.border-contact:hover {
+    border: solid 2px #1F9DCD;
+    color: #1F9DCD;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.title h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.541);
+}
+
+.title h2 {
+    font-size: 38px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.541);
 }
