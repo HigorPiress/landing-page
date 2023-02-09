@@ -127,6 +127,7 @@ li:hover {
     display:flex;
     justify-content: center;
     margin-top: 80px;
+    margin-left: 25px;
 }
 
 .groups-title {
@@ -213,6 +214,8 @@ li:hover {
 
 .box-container {
     display: flex;
+    margin-top: 40px;
+    margin-left: 25px;
 }
 
 .boxs-pricing {
@@ -224,19 +227,96 @@ li:hover {
 
 
 .circle {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 40px;
     background-color: black;
     width: 133px;
     height: 133px;
     border-radius: 50%;
 }
 
+
 .month-10 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 30px;
     background-color: white;
     width: 354px;
     height: 550px;
+    margin-top: 30px;
+}
+
+.month-50 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    background-color: white;
+    width: 354px;
+    height: 550px;
+}
+
+.month-35 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    background-color: white;
+    width: 354px;
+    height: 550px;
+    margin-top: 30px;
+}
+
+
+.value {
+    color: white;
+    font-size: 35px;
+}
+
+.mount {
+    color: white;
+    font-size: 20px;
+}
+
+.month-10 h3  {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E8ECEF;
+    width: 100%;
+}
+
+.month-50 h3, p {
+    padding-bottom: 10px;
+}
+
+.month-35 h3  {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E8ECEF;
+    width: 100%;
+}
+
+.medio-mount {
+    font-size: 17px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #E8ECEF;
+    width: 100%;
+}
+
+#mount-50 {
+    font-size: 17px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #E8ECEF;
+    border-top: 1px solid #E8ECEF;
+    width: 100%;
 }
 
