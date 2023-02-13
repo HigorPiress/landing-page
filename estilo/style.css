@@ -70,9 +70,7 @@ li:hover {
     display: inline-block;
 }
 
-.contact {
-    
-}
+
 
 .contact i {
     font-size: 20px;
@@ -247,7 +245,7 @@ li:hover {
     border-radius: 30px;
     background-color: white;
     width: 354px;
-    height: 550px;
+    height: 400px;
     margin-top: 30px;
 }
 
@@ -258,7 +256,7 @@ li:hover {
     border-radius: 30px;
     background-color: white;
     width: 354px;
-    height: 550px;
+    height: 470px;
 }
 
 .month-35 {
@@ -268,7 +266,7 @@ li:hover {
     border-radius: 30px;
     background-color: white;
     width: 354px;
-    height: 550px;
+    height: 400px;
     margin-top: 30px;
 }
 
@@ -310,13 +308,44 @@ li:hover {
     width: 100%;
 }
 
-#mount-50 {
+#mount-50  {
     font-size: 17px;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    border-bottom: 1px solid #E8ECEF;
     border-top: 1px solid #E8ECEF;
     width: 100%;
 }
 
+#mount-bar {
+    border-bottom: 1px solid #E8ECEF;
+}
+
+.button {
+    padding-top: 40px;
+}
+
+
+#button {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    width: 300px;
+    height: 50px;
+}
+
+.fundo-02{
+    width: 95vw;
+    height: 60vh;
+   background: url('../imagens/fundo-2.jpg') no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
