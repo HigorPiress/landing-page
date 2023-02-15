@@ -399,3 +399,13 @@ input#contactus{
     width: 525px;
     cursor: pointer;
 }
+
+.map iframe {
+    width: 95vw;
+    height: 500px;
+    padding-top: 80px;
+}
+
+footer {
+    padding-top: 80px;
+}
