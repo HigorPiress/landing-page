@@ -61,7 +61,7 @@ a img {
     width: 20px;
 }
 
-li:hover {
+.header-list:hover {
     width: 10px;
     border-bottom: solid 3px #1F9DCD;
 }
@@ -69,8 +69,6 @@ li:hover {
 .contact-container {
     display: inline-block;
 }
-
-
 
 .contact i {
     font-size: 20px;
@@ -407,5 +405,108 @@ input#contactus{
 }
 
 footer {
-    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
 }
+
+#title-footer {
+    font-size: 19px;
+}
+
+.footer-menu {
+    margin-left: 220px;
+}
+
+.copy {
+    margin-right: 90px;
+}
+
+.copy p {
+    font-size: 12px;
+}
+
+#list {
+    display: flex;
+    list-style: none;
+}
+
+@media (max-width:600px) {
+
+
+    .title-header {
+        font-size: 20px;
+    }
+
+    .title h1 {
+        font-size: 50px;
+    }
+
+    .contact i {
+        display: none;
+    }
+
+    .box-container {
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .boxs-groups {
+        margin: 20px;
+    }
+
+    .boxs-pricing {
+        margin: 25px;
+    }
+
+    .fundo-02 {
+        background-size: cover;
+    }
+
+    .enderess {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .city {
+        display: flex;
+        justify-content: center;
+        padding-left: 100px;
+    }
+
+    .formulario {
+        padding-right: 165px;
+    }
+
+    input#iname, #iphone {
+        width: 170px;
+        height: 50px;
+        font-size: 12px;
+    }
+
+    input#iemail {
+        width: 365px;
+        height: 50px;
+        font-size: 12px;
+    }
+    
+    input#imessage {
+        padding-bottom:60px;
+        width: 365px;
+        height: 100px;
+        font-size: 12px;
+    }
+    
+    input#contactus{
+        background-color: black;
+        color: white;
+        font-size: 12px;
+        width: 365px;
+        cursor: pointer;
+    }
+
+    
+
+}
+
