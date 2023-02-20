@@ -433,6 +433,9 @@ footer {
 
 @media (max-width:600px) {
 
+    main {
+        margin: auto;
+    }
 
     .title-header {
         font-size: 20px;
@@ -476,7 +479,7 @@ footer {
     }
 
     .formulario {
-        padding-right: 165px;
+        padding-right: 235px;
     }
 
     input#iname, #iphone {
@@ -506,6 +509,10 @@ footer {
         cursor: pointer;
     }
 
+    footer {
+        display: flex;
+        justify-content: center;
+    }
     
 
 }
