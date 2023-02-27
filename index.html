@@ -21,8 +21,9 @@
                         
                         <span class="material-symbols-outlined" onclick="clickMenu()">
                             menu
-                            </span>
+                        </span>
                         <div class="menu" id="itens">
+                        
                             
                             <ul>
                                 <li class="border header-list"><a href="#">HOME</a></li>
@@ -249,36 +250,33 @@
             </div>
 
             <footer>
-
-                <div class="copy">
-                    Training
+                <div class="container-footer">
+                    <div id="title-footer">
+                        Projeto-Gym
+                    </div>
+                    <p>
+                        Copyright © 2023 All rights reserved 
+                    </p>
+                    <p>
+                        Powered By Site123 - Website maker
+                    </p>
                 </div>
-                
-         
 
-                <div class="footer-menu">
-                            
-                    <ul id="list">
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">PRICING</a></li>
-                        <li><a href="#">GROUP CLASSES</a></li>
-                        <li><a href="#">CONTACT</a></li>
-                    </ul>
             </footer>
 
         </div>
 
 
     </main>
-    <script>
+  <script>
         function clickMenu () {
-            itens.style.display = 'block'    
-                if (itens.style.display == 'flex') {
-                    itens.style.display = 'none'
-                } else {
-                    itens.style.display = 'flex'
-                }
+            if (itens.style.display == 'flex') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'flex'
+            }   
         }
     </script>
+    
 </body>
 </html>

@@ -408,13 +408,21 @@ input#contactus{
     padding-top: 80px;
 }
 
-
-
-
-#list {
+.container-footer {
     display: flex;
-    list-style: none;
+    justify-content: space-around;
+    margin-top: 30px;
 }
+
+#title-footer {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container-footer p {
+    font-size: 14px;
+}
+
 
 @media (max-width:600px) {
 
@@ -453,6 +461,11 @@ input#contactus{
         flex-direction: column;
     }
 
+    .box-container {
+        display: flex;
+        flex-direction: column;
+    }
+
     .boxs-groups {
         margin-top: 20px;
     }
@@ -468,12 +481,68 @@ input#contactus{
     }
 
     .formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         margin: 0;
+    }
+
+    input {
+        margin: 0;
+    }
+
+    input#iname, #iphone {
+        width: 250px;
+        height: 50px;
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    input#iemail {
+        width: 475px;
+        height: 50px;
+        font-size: 12px; 
+    }
+
+    input#imessage {
+        padding-bottom:60px;
+        width: 475px;
+        height: 100px;
+        font-size: 12px;
+    }
+
+    input#contactus{
+        background-color: black;
+        color: white;
+        font-size: 12px;
+        width: 475px;
+        cursor: pointer;
     }
 
     .city {
         margin: 0;
     }
+
+    #list {
+        display: none;
+    }
+
+    .container-footer {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+
+    #title-footer {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+    .container-footer p {
+        font-size: 10px;
+    }
+
+    
 
 }
 
