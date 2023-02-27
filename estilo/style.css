@@ -37,6 +37,10 @@ main {
     font-weight: bold;
 }
 
+.material-symbols-outlined {
+    display: none;
+}
+
 .menu {
     display: flex;
     align-items: center;
@@ -414,7 +418,62 @@ input#contactus{
 
 @media (max-width:600px) {
 
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .contact-container {
+        display: none;
+    }
+
+    .border {
+        border-bottom: none;
+    }
+    
+    .header-list:hover {
+        border-bottom: none;
+    }
+
+   
+    .material-symbols-outlined {
+        display: contents;
+        cursor: pointer;
+        display: block;
+        padding-left: 32px;
+        padding-bottom: 10px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .boxs-groups {
+        margin-top: 20px;
+    }
+
+    .boxs-pricing {
+        margin-top: 60px;
+    }
+
+    .enderess {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formulario {
+        margin: 0;
+    }
+
+    .city {
+        margin: 0;
+    }
 
 }
 
