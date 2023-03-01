@@ -517,10 +517,12 @@ input#contactus{
 
     .boxs-groups {
         margin-top: 0px;
+        margin-bottom: 50px;
     }
 
     .boxs-pricing {
-        margin-top: 0px;
+        margin-top: 0;   
+        margin-bottom: 50px;
     }
 
     .enderess {
