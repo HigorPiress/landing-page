@@ -435,15 +435,60 @@ input#contactus{
         display: none;
     }
 
+    .title h1 {
+        font-size: 40px;
+    }
+    
+    .title h2 {
+        font-size: 30px;
+    }
+
+    .groups-title {
+        font-size: 14px;
+    }
+
+    .text-groups {
+        font-size: 13px;
+    }
+
+    .boxs-groups {
+        width: 354px;
+        height: 380px;
+    }
+
+    .boxs-pricing {
+        margin-top: 150px;
+    }
+
+    .circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    .value {
+        font-size: 16px;
+    }
+
+    .mount {
+        font-size: 14px;
+    }
+
+    .medio-mount {
+        font-size: 13px;
+    }
+
     .border {
         border-bottom: none;
+    }
+
+    #mount-50 {
+        font-size: 14px;
     }
     
     .header-list:hover {
         border-bottom: none;
     }
 
-   
     .material-symbols-outlined {
         display: contents;
         cursor: pointer;
