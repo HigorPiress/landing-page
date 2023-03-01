@@ -484,6 +484,10 @@ input#contactus{
     #mount-50 {
         font-size: 14px;
     }
+
+    .active {
+        margin-bottom:0;
+    }
     
     .header-list:hover {
         border-bottom: none;
@@ -512,11 +516,11 @@ input#contactus{
     }
 
     .boxs-groups {
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
     .boxs-pricing {
-        margin-top: 60px;
+        margin-top: 0px;
     }
 
     .enderess {
