@@ -463,6 +463,7 @@ input#contactus{
     .circle {
         width: 120px;
         height: 120px;
+        
     }
 
     .value {
@@ -477,6 +478,18 @@ input#contactus{
         font-size: 13px;
     }
 
+    .month-10 {
+        margin-top: 50px;
+    }
+
+    .month-50 {
+        margin-top: 10px;
+    }
+
+    .month-35 {
+        margin-top: 10px;
+    }
+
     .border {
         border-bottom: none;
     }
@@ -486,7 +499,8 @@ input#contactus{
     }
 
     .active {
-        margin-bottom:0;
+        margin-top: 20px;
+        margin-bottom: 25px;
     }
     
     .header-list:hover {
@@ -513,10 +527,12 @@ input#contactus{
     .box-container {
         display: flex;
         flex-direction: column;
+        margin-top: 10px;
+        margin-left: 25px;
     }
 
     .boxs-groups {
-        margin-top: 0px;
+        margin-top: 10px;
         margin-bottom: 50px;
     }
 
@@ -573,6 +589,10 @@ input#contactus{
         width: 375px;
         margin-top: 10px;
         cursor: pointer;
+    }
+
+    .enderess {
+        margin-top: 20px;
     }
 
     .city {
